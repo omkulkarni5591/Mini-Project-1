@@ -1,6 +1,6 @@
 package com.oksoft.service;
 
-import java.io.Serializable;
+
 import java.util.List;
 
 import com.oksoft.binding.Contact;
