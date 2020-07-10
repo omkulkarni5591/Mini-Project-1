@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    password: phappuser123
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: phappuser
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        show_sql: true
+    hibernate:
+      ddl-auto: update
+  mvc:
+    view:
+      prefix: ./views/
+      suffix: .jsp
+server:
+  port: 9191
