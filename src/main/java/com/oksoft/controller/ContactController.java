@@ -22,6 +22,7 @@ public class ContactController {
 	@GetMapping(value= {"/","/addContact"})
 	public String loadForm(Model model) {
       Contact contact=new Contact();
+		System.out.println("this is addForm() method");
        model.addAttribute("contact", contact);
       return "contactInfo";
 	}
